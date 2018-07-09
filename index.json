@@ -1,0 +1,6 @@
+{
+  "zookeeper_address":"192.168.1.11:21181",
+  "kafka_topic":"search_image",
+  "kafka_consumer_thread_number":1,
+  "monitor_schedule":3
+}
