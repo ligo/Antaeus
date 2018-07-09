@@ -18,7 +18,7 @@
     - [4.3 启动容器](#4.3-启动容器)
  
 # 1 介绍
-   本项目基于[LIRe(Lucene Image Retrieval)](doc-offical/README.md)框架的以图搜图引擎。
+   本项目引用部分[LIRe(Lucene Image Retrieval)](doc-offical/README.md)框架源码以及Facebook faiss引擎部分思想，基于Apache Lucene的以图搜图引擎。通过实时接收Kafka中传来的基于MTCNN深度模型人脸识别算法得到512维的特征向量，实时建立索引，并且加入缓存机制，并且支持一定日期范围内（可配置）快速检索。
    为了方便开发和阅读，涉及到项目中的关键词均用英文，比如Document, [Extractor](docs/EXTRACTOR.md), Builder等。
  
 ## 1.1 LIRe介绍
